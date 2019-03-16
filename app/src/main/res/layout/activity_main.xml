@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Song_1"
+            style="@style/SongListStyle"
+           android:background="@color/light_brown"
+            android:text="@string/Song_1"
+            />
+
+        <TextView
+            android:id="@+id/Song_2"
+            style="@style/SongListStyle"
+            android:background="@color/mocha"
+            android:text="@string/Song_2"
+            />
+
+        <TextView
+            android:id="@+id/Song_3"
+            style="@style/SongListStyle"
+            android:background="@color/light_brown"
+            android:text="@string/Song_3"
+            />
+
+        <TextView
+            android:id="@+id/Song_4"
+            style="@style/SongListStyle"
+            android:background="@color/mocha"
+            android:text="@string/Song_4"
+            />
+
+        <TextView
+            android:id="@+id/Song_5"
+            style="@style/SongListStyle"
+            android:background="@color/light_brown"
+            android:text="@string/Song_5"
+            />
+
+        <TextView
+            android:id="@+id/Song_6"
+            style="@style/SongListStyle"
+            android:background="@color/mocha"
+            android:text="@string/Song_6"
+            />
+
+        <TextView
+            android:id="@+id/Song_7"
+            style="@style/SongListStyle"
+            android:background="@color/light_brown"
+            android:text="@string/Song_7"
+            />
+
+        <TextView
+            android:id="@+id/Song_8"
+            style="@style/SongListStyle"
+            android:background="@color/mocha"
+            android:text="@string/Song_8"
+            />
+
+        <TextView
+            android:id="@+id/Song_9"
+            style="@style/SongListStyle"
+            android:background="@color/light_brown"
+            android:text="@string/Song_9"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
